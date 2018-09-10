@@ -16,6 +16,11 @@ impl Message {
     }
 }
 
+enum Option<T> {
+    Some(T),
+    None,
+}
+
 fn main() {
     let four = IPAddrType::V4;
     let six = IPAddrType::V6;
